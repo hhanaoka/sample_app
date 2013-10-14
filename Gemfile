@@ -6,7 +6,7 @@ gem 'rails', '3.2.14'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3', :group => :development
-
+gem 'gravatar_image_tag'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -45,4 +45,5 @@ end
 group :test do
   gem 'rspec'
   gem 'webrat'
+  gem "factory_girl_rails", "~> 4.0"
 end
