@@ -11,4 +11,9 @@ FactoryGirl.define do
   factory :admin, class: User do
     # Do nothing, only for sample.
   end
+
+  sequence(:email) do |n|
+    "person-#{n}@example.com"
+  end
+    
 end
